@@ -4,79 +4,27 @@ a {
 .container-fluid {
 	box-shadow: 0 3px 20px #888;
 }
-.bottomLink {
-	margin-top: 15px;
-	text-align: left;
-}
-
-body {
-	background-color: #ddd;
-	max-width: 1500px;
-	margin: auto;
-	position: relative;
-}
-
-/*TITLE*/
-#title {
-	position: relative;
-	background-image: url('../media/banner.jpg');
-	background-position: center;
-	background-size: cover;
-	height: 300px;
-	color: #ffffff;
-	padding: 75px 25px;
-}
 
 /*SERVICES*/
-#services span img {
-	height: 150px;
+#services .card-img-top {
+	height: 200px;
+	object-fit: cover;
 }
 
 /*TRUCKING*/
-#trucking .glyphicon {
-	color: #e4742e;
-	font-size: 50px;
-}
-#trucking .row {
-	padding: 25px 0px;
-}
-#trucking .col-sm-4 * {
-	position: relative;
-}
-
-/*RENTALS*/
-#rentals p {
-	text-indent: 40px;
-	margin-bottom: 15px;
+#trucking svg {
+	fill: #e4742e;
+	height: 54px;
+	width: 54px;
 }
 
 /*EQUIPMENT*/
-#equipment * {
+#equipment [class^="col-"] {
 	overflow: hidden;
+	height: 300px;
 }
-#equipment h2 {
-	text-align: center;
-}
-#equipment h3 {
-	margin: 10px 0;
-	text-align: center;
-}
-.thumbnail {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items:center;
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
-}
-.thumbnail img {
-	width: 100%;
-}
-#equipment .item:hover {
-	cursor: pointer;
-}
-#equipment a.link {
+#equipment img {
+	object-fit: cover;
 }
 
 /* MODAL */
@@ -116,83 +64,7 @@ body {
     margin-left: 50px;
 }
 
-/*TEAM*/
-#team {
-	padding-bottom: 20px;
-}
-#team a {
-	cursor: pointer;
-}
-.profpic {
-	position: relative;
-	padding: 0;
-	margin-right: 15px;
-	width: 150px;
-}
-.profpic img {
-	width: 100%;
-	max-width: 150px;
-	max-height: 150px;
-	border-radius: 50%;
-}
-.profileParent {
-	margin: 25px 0px 15px;
-}
-.profile {
-	float: none;
-	position: relative;
-	text-align: left;
-	display: flex;
-	justify-content: center;
-	align-items:center;
-	overflow: hidden;
-	padding: 0px;
-	margin: 0px;
-}
-.profile p {
-	margin: 0;
-}
-.profileParent .bottomLink {
-	text-align: center;
-}
-#linkedin {
-	position: absolute;
-	border-radius: 0;
-	width: 40px;
-	right: 0;
-	bottom: 0;
-}
-#linkedin:hover {
-	opacity: 0.8;
-}
-.bio {
-	text-indent: 40px;
-	text-align: left;
-}
-.reb, .bry {
-	display: none;
-}
-.bio img {
-	display: block;
-	width: 100%;
-}
-.bry img {
-	transform: scaleX(-1);
-}
-
-/*TESTIMONIALS*/
-#testimonials {
-	padding-bottom: 70px;
-}
-
 /*CONTACT*/
-#contact h2{
-	text-align: center;
-}
-#contact {
-	box-shadow: 3px 3px 20px #888888;
-	padding-bottom: 0;
-}
 #contact .glyphicon {
 	color: #000000;
 	font-size: 50px;
@@ -208,18 +80,6 @@ body {
 }
 .form-group {
 	padding: 0px;
-}
-
-/*FOOTER*/
-#footer {
-	padding: 10px;
-	margin: 0 -50px;
-}
-#footer p {
-	text-align: center;
-	color: #ffffff;
-	font-size: 10px;
-	margin-bottom: 0px;
 }
 
 /*CAROUSEL*/
