@@ -78,9 +78,9 @@ a {
 .panel {
 	background-color: #ffafaf;
 }
-.form-group {
+/*.form-group {
 	padding: 0px;
-}
+}*/
 
 /*CAROUSEL*/
 .carousel-control.right, .carousel-control.left {
@@ -118,6 +118,12 @@ a {
 /*XS*/
 @media screen and (max-width: 767px) {
 	h1 {
+		font-size: 40px;
+	}
+	h1 .b {
+		font-size: 48px;
+	}
+	/*h1 {
 		font-size: 50px;
 	}
 	.navbar {
@@ -133,9 +139,6 @@ a {
 		top: 100px;
 		height: 250px;
 		padding-top: 50px;
-	}
-	#services {
-		padding-top: 130px;
 	}
 	.row > div {
 		padding: 15px 0px;
@@ -166,10 +169,10 @@ a {
 	}
 	#contactInfo h2 {
 		padding-bottom: 0;
-	}
+	}*/
 }
 
-@media screen and (max-width: 498px) {
+/*@media screen and (max-width: 498px) {
 	h1 {
 		font-size: 40px;
 	}
@@ -186,7 +189,7 @@ a {
 		display: block;
 		text-align: center;
 	}
-}
+}*/
 @media screen and (max-width: 372px) {
 	.g-recaptcha {
 		margin-left: -35px;

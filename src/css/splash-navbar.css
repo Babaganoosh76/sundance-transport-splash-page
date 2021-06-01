@@ -1,0 +1,126 @@
+
+.desktopNavContainer {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	height: 0;
+	max-width: 1500px;
+	margin: auto;
+	z-index: 5;
+}
+
+/*DESTOP NAVIGATION PANE*/
+#desktopNav {
+	position: relative;
+	top: -10px;
+	left: 30px;
+	max-width: 350px;
+	box-shadow: 0px 0px 10px 0px;
+	border-radius: 3px;
+}
+.spinner {
+	overflow: hidden;
+}
+.sunburst {
+	position: relative;
+	max-width: 100%;
+	transform: rotate(0deg);
+	border-radius: 50%;
+}
+.navbar a {
+	display: block;
+	font-style: normal;
+	color: #ffffff;
+	text-align: center;
+	margin: 0;
+	font-weight: 700;
+	padding: 12px 0px;
+}
+.navbar li a:hover, .navbar li a:active, .navbar li.active a {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+/*SUBHAUL*/
+#subhaul {
+	position: relative;
+	margin-top: 15px;
+	padding: 10px 10px 20px;
+	background-color: #eead40;
+	color: white;
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+}
+#subhaul p {
+	margin: 5px 0px 10px;
+}
+.navbarToggle {
+	width: 50px;
+	height: 50px;
+	border: 0;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: transparent;
+	padding: 0;
+}
+
+#desktopNav .glyphicon {
+	height: 100%;
+	width: 100%;
+	color: #fff;
+	font-size: 24px;
+}
+
+
+/*XS*/
+@media screen and (max-width: 767px) {
+	#desktopNav {
+		width: 100%;
+		margin: 0px;
+	}
+	.spinner {
+		height: 50px;
+	}
+	.sunburst {
+		height: 100px;
+	}
+	#subhaul {
+		margin: 0px;
+		width: 100%;
+		height: 50px;
+		padding: 5px;
+		clear: both;
+	}
+	#subhaul p {
+		float: left;
+	}
+	#subhaul a {
+		float: right;
+		margin-top: 2px;
+	}
+	/*.navbar {
+		height: 0px;
+		padding: 0px;
+	}*/
+}
+
+@media screen and (max-width: 498px) {
+	#subhaul {
+		width: 100%;
+		margin-left: 0;
+		padding: 3px;
+		margin-top: 2px;
+	}
+}
+
+@media screen and (max-width: 372px) {
+	#subhaul p {
+		margin: 0px;
+		font-size: 15px;
+		white-space: pre-wrap;
+		max-width: 200px;
+		line-height: 1.3;
+	}
+}

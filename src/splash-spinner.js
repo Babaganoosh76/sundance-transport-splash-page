@@ -7,12 +7,12 @@ $(window).scroll( function(){
 });
 
 // LOAD
-$(window).on("load", function(){
+$(window).on('load', function(){
 	$('.sunburst').attr("src", "media/sunburst.png");
 });
 
 // RESIZE
-$(window).on("load resize", function(){
+$(window).on('load resize', function(){
 	if ($(window).width() >= 752)
 		$('#desktopNav .spinner').css({"height": $('#desktopNav .spinner').width()/2 +"px"});
 	else
