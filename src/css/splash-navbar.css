@@ -31,10 +31,10 @@
 	display: block;
 	font-style: normal;
 	color: #ffffff;
-	text-align: center;
-	margin: 0;
+	/*text-align: center;*/
 	font-weight: 700;
-	padding: 12px 0px;
+	/*padding: 12px 0px;*/
+	text-decoration: none;
 }
 .navbar li a:hover, .navbar li a:active, .navbar li.active a {
 	color: #000000;

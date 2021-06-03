@@ -30,10 +30,10 @@ a {
 /* MODAL */
 .arrow {
 	height: 100%;
-    width: 50px;
-    position: absolute;
-    top: 0;
-    transition: 0.3s ease;
+	width: 50px;
+	position: absolute;
+	top: 0;
+	transition: 0.3s ease;
 }
 .arrow:hover {
 	background-color: rgba(0, 0, 0, 0.5);
@@ -61,7 +61,7 @@ a {
 	transition: all 0.5s ease;
 }
 #prev:hover + .numberText {
-    margin-left: 50px;
+		margin-left: 50px;
 }
 
 /*CONTACT*/
@@ -78,9 +78,6 @@ a {
 .panel {
 	background-color: #ffafaf;
 }
-/*.form-group {
-	padding: 0px;
-}*/
 
 /*CAROUSEL*/
 .carousel-control.right, .carousel-control.left {
@@ -110,88 +107,11 @@ a {
 }
 
 @media screen and (max-width: 957px) {
-	#services span img {
-		height: 110px;
-	}
+	#services span img { height: 110px }
 }
 
 /*XS*/
 @media screen and (max-width: 767px) {
-	h1 {
-		font-size: 40px;
-	}
-	h1 .b {
-		font-size: 48px;
-	}
-	/*h1 {
-		font-size: 50px;
-	}
-	.navbar {
-		padding: 0;
-	}
-	.bottomLink {
-		text-align: center;
-	}
-
-	#title {
-		text-align: center;
-		position: relative;
-		top: 100px;
-		height: 250px;
-		padding-top: 50px;
-	}
-	.row > div {
-		padding: 15px 0px;
-	}
-	#trucking h2 {
-		margin-top: 50px;
-		margin-bottom: 0;
-	}
-	#trucking .row {
-		padding: 0;
-	}
-	#rentals ul {
-		margin-bottom: 0px;
-	}
-	.profileParent {
-		margin: 25px 0px;
-	}
-	.profpic {
-		margin: 0;
-		margin-right: 15px;
-	}
-	.profile {
-		text-align: left;
-		display: flex;
-		justify-content: center;
-		align-items:center;
-		overflow: hidden;
-	}
-	#contactInfo h2 {
-		padding-bottom: 0;
-	}*/
-}
-
-/*@media screen and (max-width: 498px) {
-	h1 {
-		font-size: 40px;
-	}
-	#title {
-		padding: 0px 10px;
-	}
-	.modal {
-		padding-top: 200px;
-	}
-	.profpic {
-		margin: auto;
-	}
-	.profile {
-		display: block;
-		text-align: center;
-	}
-}*/
-@media screen and (max-width: 372px) {
-	.g-recaptcha {
-		margin-left: -35px;
-	}
+	h1 { font-size: 40px }
+	h1 .b { font-size: 48px }
 }
