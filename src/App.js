@@ -2,32 +2,32 @@
 import React, { useEffect } from 'react'
 import $ from 'jquery'
 
-import banner from './media/banner.jpg'
+import banner from './media/banner.webp'
 import sunburst from './media/sunburst.png'
 
-import img_svc_1 from './media/service-trucking.jpg'
-import img_svc_2 from './media/service-hotshot.jpg'
-import img_svc_3 from './media/service-forklift.jpg'
+import img_svc_1 from './media/service-trucking.webp'
+import img_svc_2 from './media/service-hotshot.webp'
+import img_svc_3 from './media/service-forklift.webp'
 
 import glp_trailer from './media/glyphicon-trailer.png'
 import glp_forklift from './media/glyphicon-forklift.png'
 
-import img_gly_1 from './media/gallery/img_1.jpg'
-import img_gly_2 from './media/gallery/img_2.jpg'
-import img_gly_3 from './media/gallery/img_3.jpg'
-import img_gly_4 from './media/gallery/img_4.jpg'
-import img_gly_5 from './media/gallery/img_5.jpg'
-import img_gly_6 from './media/gallery/img_6.jpg'
-import img_gly_7 from './media/gallery/img_7.jpg'
-import img_gly_8 from './media/gallery/img_8.jpg'
-import img_gly_9 from './media/gallery/img_9.jpg'
-import img_gly_10 from './media/gallery/img_10.jpg'
-import img_gly_11 from './media/gallery/img_11.jpg'
-import img_gly_12 from './media/gallery/img_12.jpg'
-import img_gly_13 from './media/gallery/img_13.jpg'
+import img_gly_1 from './media/gallery/img_1.webp'
+import img_gly_2 from './media/gallery/img_2.webp'
+import img_gly_3 from './media/gallery/img_3.webp'
+import img_gly_4 from './media/gallery/img_4.webp'
+import img_gly_5 from './media/gallery/img_5.webp'
+import img_gly_6 from './media/gallery/img_6.webp'
+import img_gly_7 from './media/gallery/img_7.webp'
+import img_gly_8 from './media/gallery/img_8.webp'
+import img_gly_9 from './media/gallery/img_9.webp'
+import img_gly_10 from './media/gallery/img_10.webp'
+import img_gly_11 from './media/gallery/img_11.webp'
+import img_gly_12 from './media/gallery/img_12.webp'
+import img_gly_13 from './media/gallery/img_13.webp'
 
-import img_mtt_1 from './media/rebecca_miller.jpg'
-import img_mtt_2 from './media/bry_mil.jpg'
+import img_mtt_1 from './media/rebecca_miller.webp'
+import img_mtt_2 from './media/bryan_miller.webp'
 
 function App() {
 
@@ -208,10 +208,10 @@ function App() {
 							<div className="col-md-7">
 								<div id="Carousel1" className="carousel slide h-100" data-bs-ride="carousel">
 									<div className="carousel-inner h-100">
-										<div className="carousel-item active"><img src={ img_gly_6 } className="d-block w-100 h-100" alt="hotshot truck" /></div>
+										<div className="carousel-item h-100 active"><img src={ img_gly_6 } className="d-block w-100 h-100" alt="hotshot truck" /></div>
 										<div className="carousel-item h-100"><img src={ img_gly_8 } className="d-block w-100 h-100" alt="hotshot truck carrying barriers" /></div>
-										<div className="carousel-item"><img src={ img_gly_12 } className="d-block w-100 h-100" alt="hotshot truck with flatbed trailer" /></div>
-										<div className="carousel-item"><img src={ img_gly_5 } className="d-block w-100 h-100" alt="forklift" /></div>
+										<div className="carousel-item h-100"><img src={ img_gly_12 } className="d-block w-100 h-100" alt="hotshot truck with flatbed trailer" /></div>
+										<div className="carousel-item h-100"><img src={ img_gly_5 } className="d-block w-100 h-100" alt="forklift" /></div>
 									</div>
 								</div>
 							</div>
@@ -229,10 +229,10 @@ function App() {
 							<div className="col-md-6">
 								<div id="Carousel2" className="carousel slide h-100" data-bs-ride="carousel">
 									<div className="carousel-inner h-100">
-										<div className="carousel-item active"><img src={ img_gly_3 } className="d-block w-100 h-100" alt="wide load of lumber" /></div>
-										<div className="carousel-item"><img src={ img_gly_10 } className="d-block w-100 h-100" alt="hotshot truck carrying lumber" /></div>
-										<div className="carousel-item"><img src={ img_gly_2 } className="d-block w-100 h-100" alt="three loaded big-rig trucks" /></div>
-										<div className="carousel-item"><img src={ img_gly_7 } className="d-block w-100 h-100" alt="hotshot truck" /></div>
+										<div className="carousel-item h-100 active"><img src={ img_gly_3 } className="d-block w-100 h-100" alt="wide load of lumber" /></div>
+										<div className="carousel-item h-100"><img src={ img_gly_10 } className="d-block w-100 h-100" alt="hotshot truck carrying lumber" /></div>
+										<div className="carousel-item h-100"><img src={ img_gly_2 } className="d-block w-100 h-100" alt="three loaded big-rig trucks" /></div>
+										<div className="carousel-item h-100"><img src={ img_gly_7 } className="d-block w-100 h-100" alt="hotshot truck" /></div>
 									</div>
 								</div>
 							</div>
